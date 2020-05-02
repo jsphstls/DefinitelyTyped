@@ -3620,6 +3620,7 @@ declare namespace cytoscape {
          * or it can be used to add spacing between a compound node parent and its children.
          */
         interface PaddingNode {
+            "padding"?: PropertyValueNode<string>;
             "padding-left"?: PropertyValueNode<string>;
             "padding-right"?: PropertyValueNode<string>;
             "padding-top"?: PropertyValueNode<string>;
